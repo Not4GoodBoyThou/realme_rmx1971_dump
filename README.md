@@ -1,0 +1,20 @@
+## sdm710-user 10 QKQ1.190918.001 1150_202107132138 release-keys
+- Manufacturer: realme
+- Platform: sdm710
+- Codename: RMX1971
+- Brand: realme
+- Flavor: sdm710-user
+- Release Version: 10
+- Kernel Version: 4.9.186
+- Id: QKQ1.190918.001
+- Incremental: 1150_202107132138
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: false
+- Treble Device: true
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: 
+- OTA version: RMX1971EX_11.C.15_1150_202107132138
+- Branch: RMX1971EX_11.C.15_1150_202107132138
+- Repo: realme_rmx1971_dump
