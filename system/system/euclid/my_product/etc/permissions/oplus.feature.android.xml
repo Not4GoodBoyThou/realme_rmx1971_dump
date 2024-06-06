@@ -1,0 +1,13 @@
+<oplus-config>
+  <!-- FuJinzhi@ANDROID.FRAMEWORK, 2020/06/13, Add for demo oplus feature -->
+  <oplus-feature name="oplus.hardware.test_product_19065" />
+  <oplus-feature name="oplus.software.test_product_19065" />
+  <!-- Guofu.Yang@ANDROID.WMS.2458273, 2020/08/13, Add for app resolution switch -->
+  <oplus-feature name="oplus.software.app_resolution_switch" />
+  <oplus-feature name="oplus.software.app_resolution_auto" />
+    <!-- LuoBinqiang@ANDROID.AMS, 2020/07/14, add for some process keep alive ext -->
+    <oplus-feature name="oplus.software.keep_alive_ext" />
+    <!-- LuoBinqiang@ANDROID.AMS, 2020/07/14, add end -->
+  <!-- steve.shen@OPTI, 2021/03/12, Add for animation scroll opt -->
+  <oplus-feature name="oplus.software.scroll.animation_opt" />
+</oplus-config>

@@ -1,0 +1,6 @@
+<!-- This file is used by Exp.  DO NOT MODIFY. -->
+
+<permissions>
+  <!-- laizhijie@Plf.Comm, 2017/05/04, add for wlan assistant -->
+  <feature name="oppo.common_center.wlan.assistant" />
+</permissions>

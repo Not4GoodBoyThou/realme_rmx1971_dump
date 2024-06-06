@@ -1,0 +1,36 @@
+<oplus-config>
+    <!-- =================== DISPLAY FEATURES BEGIN ================================ -->
+    <!-- heteromorphism feature -->
+    <oplus-feature name="oplus.software.display.screen_heteromorphism" />
+    <oplus-feature name="oplus.software.display.origin_roundcorner_support" />
+
+    <!-- brightness feature -->
+    <oplus-feature name="oplus.software.display.autobrightctl_animation_support" />
+    <oplus-feature name="oplus.software.display.multibits_dimming_support" />
+
+    <!-- dcbacklight features -->
+    <!-- oplus-feature name="oplus.software.display.dcbacklight_support" /-->
+
+    <!-- aod feature -->
+    <!-- oplus-feature name="oplus.software.display.aod_support" /-->
+    <!-- oplus-feature name="oplus.software.display.aod_prevent_burn_support" /-->
+
+    <!-- sceen fingerprint feature -->
+    <!--oplus-feature name="oplus.software.fingeprint_optical_enabled"/-->
+
+    <!-- fingerprint dimlayer feature -->
+    <oplus-feature name="oplus.software.display.fingerprint_disable_dimlayer" />
+
+    <oplus-feature name="oplus.software.display.screen_parthbm_support" />
+
+    <!-- =================== DISPLAY FEATURES END ================================== -->
+
+    <!-- Meilong.Zhang@MULTIMEDIA.AUDIOSERVER.FEATURE, 2021/05/06 , Add for DUALHEADPHONE start-->
+    <oplus-feature name="oplus.software.audio.dualheadphone"/>
+    <oplus-feature name="oplus.software.audio.dualheadphone.lite"/>
+    <!-- Meilong.Zhang@MULTIMEDIA.AUDIOSERVER.FEATURE, 2021/05/06 , Add for DUALHEADPHONE end-->
+
+    <!-- ZhangMeilong@MULTIMEDIA.AUDIOSERVER.EFFECT, 2021/05/17 add for enable dirac bt effect feature start-->
+    <oplus-feature name="oplus.software.audio.dirac.a2dp.support"/>
+    <!-- ZhangMeilong@MULTIMEDIA.AUDIOSERVER.EFFECT, 2021/05/17 add for enable dirac bt effect feature end-->
+</oplus-config>

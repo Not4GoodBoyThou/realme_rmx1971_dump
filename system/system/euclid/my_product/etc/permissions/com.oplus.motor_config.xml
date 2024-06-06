@@ -1,0 +1,7 @@
+<oplus-config>
+    <!-- Wenyi.Wang@ANDROID.INPUT, 2020/09/14, add for Camera Motor  -->
+    <!-- oplus-feature name="oplus.software.motor_support" /-->
+    <!-- Wenyi.Wang@ANDROID.INPUT, 2020/09/14, add for Camera Motor back flash -->
+    <oplus-feature name="oplus.software.motor.backflash" />
+    <!-- Wenyi.Wang@ANDROID.INPUT, 2020/09/14, add for Camera Motor end. -->
+</oplus-config>

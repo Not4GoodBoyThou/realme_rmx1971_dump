@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- ad region support feature -->
+    <app_feature name="com.oppo.launcher.ad_region" args="String:IN"/>
+    <app_feature name="com.oppo.launcher.ad_support" args="String:more"/>
+    <app_feature name="com.android.launcher.ad_support" args="String:more"/>
+	<!-- branch feature url -->
+	<app_feature name="com.android.launcher.BRANCH_DISCOVERY_NAVIGATOR" args="StringList:url">
+        <StringList name="url" args="https://branch.io/discovery-policies/#privacy-what-information-does-branch-collect-from-the-discovery-services;https://branch.io/discovery-policies/privacy-policy/"/>
+    </app_feature>
+</extend_features>

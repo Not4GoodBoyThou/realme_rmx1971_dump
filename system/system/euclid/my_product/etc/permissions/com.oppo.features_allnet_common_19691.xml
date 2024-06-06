@@ -1,0 +1,26 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<!-- COLOR_EDIT.  add oppo.screen.hovering.support ;remove oppo.narrow.frame -->
+<permissions>
+    <!-- ifdef VENDOR_EDIT -->
+    <!-- Haifeng.zhu@AD.Fingerprint.1952414, 2019/06/20, add for fingerpirnt feature -->
+    <feature name="android.hardware.fingerprint" />
+    <feature name="oppo.back.touch.fingerprint.sensor" />
+    <feature name="oppo.hardware.fingerprint.optical.support" />
+    <!-- endif VENDOR_EDIT -->
+    <!-- Wenyi.Wang@ANDRID.SENSOR OplusFeature.GeminiProximity.1319617, 2018/05/21, Add for Tp Proximity -->
+    <feature name="oppo.proximity.tp.support" />
+    <feature name="oppo.lcd.first.tp.last.support"/>
+    <feature name="oppo.screen.hovering.support" />
+    <feature name="realme.full.function.tw.support" />
+    <feature name="oppo.autobrightctl.animation.support" />
+    <feature name="oppo.multibits.dimming.support" />
+    <!-- Enable Zero Touch Provisioning support. -->
+    <feature name="com.google.android.feature.ZERO_TOUCH" />
+
+    <feature name="oppo.otg.connection.menu.support" />
+    <feature name="oppo.sw.solution.rom" />
+    <feature name="oppo.securitypay.support" />
+    <feature name="oppo.rom.lowram.support" />
+    <feature name="oppo.filtrated.app" />
+    <feature name="oppo.sdcard.storage.switch.support" />
+</permissions>

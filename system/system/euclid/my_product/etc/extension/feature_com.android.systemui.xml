@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <!--Longxing.pan@ANDROID.SYTEMUI.NavigationBar, 2021/04/06, Add for support Q Upgrade R to remain the gesture up multiple layout -->
+    <app_feature name="com.android.systemui.support_more_swipup_gestures"/>
+</extend_features>

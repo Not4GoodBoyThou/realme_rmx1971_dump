@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+** Copyright (c) 2016-2050 OPPO Mobile Comm Corp., Ltd, All rights reserved.
+** OPPO Technologies Proprietary and Confidential.
+** The xml is for config game resolution.
+** For example scale 1.5 change 1080*1920 to 720*1280 (1080/720=1.5)
+** Author:xiaori.yuan@oppo.com
+*/
+-->
+<filter-conf>
+    <version>20210402</version>
+    <isOpen>1</isOpen>
+    <filter-name>oppo_app_scale_list</filter-name>
+    <game>
+        <PackageName>com.imangi.templerun2</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <game>
+        <PackageName>com.kiloo.subwaysurf</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <game>
+        <PackageName>com.netease.dhxy.nearme.gamecenter</PackageName>
+        <scale>1.3333</scale>
+    </game>
+    <game>
+        <PackageName>com.cocos2d.fishingfun.nearme.gamecenter</PackageName>
+        <scale>1.333</scale>
+    </game>
+    <game>
+        <PackageName>org.cocos2d.fishingjoy3</PackageName>
+        <scale>1.333</scale>
+    </game>
+    <game>
+        <PackageName>org.cocos2dx.FishingJoy2</PackageName>
+        <scale>1.333</scale>
+    </game>
+    <game>
+        <PackageName>com.gbits.atm.nearme.gamecenter</PackageName>
+        <scale>1.3333</scale>
+    </game>
+    <game>
+        <PackageName>com.nextwave.wcc2</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <hbm>
+        <hbmlevel>hbmlevel1</hbmlevel>
+        <hbmvalue>10000.0</hbmvalue>
+    </hbm>
+    <hbm>
+        <hbmlevel>hbmlevel2</hbmlevel>
+        <hbmvalue>20000.0</hbmvalue>
+    </hbm>
+    <hbm>
+        <hbmlevel>hbmlevel3</hbmlevel>
+        <hbmvalue>30000.0</hbmvalue>
+    </hbm>
+
+    <appReduceBtnMethod>
+        <appPkg>com.coloros.video</appPkg>
+        <appPkg>com.tencent.qqlive</appPkg>
+        <appPkg>com.youku.phone</appPkg>
+        <appPkg>com.qiyi.video</appPkg>
+        <appPkg>com.tencent.mobileqq</appPkg>
+        <appPkg>com.tencent.mm</appPkg>
+        <appPkg>com.xunmeng.pinduoduo</appPkg>
+        <appPkg>com.sankuai.meituan</appPkg>
+        <appPkg>com.sina.weibo</appPkg>
+        <appPkg>com.achievo.vipshop</appPkg>
+        <appPkg>com.taobao.taobao</appPkg>
+        <appPkg>com.jingdong.app.mall</appPkg>
+        <appPkg>com.ss.android.article.news</appPkg>
+        <appPkg>com.UCMobile</appPkg>
+        <appPkg>com.oppo.reader</appPkg>
+        <appPkg>com.eg.android.AlipayGphone</appPkg>
+        <appPkg>com.ss.android.article.video</appPkg>
+        <appPkg>cn.wps.moffice_eng</appPkg>
+        <appPkg>com.baidu.searchbox</appPkg>
+        <appPkg>com.autonavi.minimap</appPkg>
+        <appPkg>com.hipu.yidian</appPkg>
+        <appPkg>com.kugou.android</appPkg>
+        <appPkg>com.Qunar</appPkg>
+        <appPkg>com.tencent.qqmusic</appPkg>
+        <appPkg>com.tencent.news</appPkg>
+        <appPkg>com.shoujiduoduo.ringtone</appPkg>
+        <appPkg>com.ximalaya.ting.android</appPkg>
+        <appPkg>com.baidu.haokan</appPkg>
+        <appPkg>com.android.browser</appPkg>
+        <appPkg>com.facebook.katana</appPkg>
+        <appPkg>com.facebook.orca</appPkg>
+        <appPkg>com.whatsapp</appPkg>
+        <appPkg>com.UCMobile.intl</appPkg>
+        <appPkg>app.buzz.share</appPkg>
+        <appPkg>com.lenovo.anyshare.gps</appPkg>
+        <appPkg>com.truecaller</appPkg>
+        <appPkg>in.mohalla.sharechat</appPkg>
+        <appPkg>com.jio.myjio</appPkg>
+        <appPkg>cn.xender</appPkg>
+        <appPkg>com.flipkart.android</appPkg>
+        <appPkg>com.amazon.mShop.android.shopping</appPkg>
+        <switch>1</switch>
+        <levels>819,1429,3069,3689</levels>
+        <ratio>0.0,0.35,0.17,0.0</ratio>
+        <rate>0,0,0,0</rate>
+    </appReduceBtnMethod>
+</filter-conf>
+

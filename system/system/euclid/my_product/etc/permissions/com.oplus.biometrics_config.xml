@@ -1,0 +1,5 @@
+<oplus-config>
+  <oplus-feature name="oplus.software.fingeprint_back_touch"/>
+  <oplus-feature name="oplus.software.fingerprint.shutter"/>
+  <oplus-feature name="oplus.software.face_nopowerblock"/>
+</oplus-config>

@@ -1,0 +1,19 @@
+<oplus-config>
+    <!-- ShiQianhua@NETWORK.DATA.8615, 2020/06/22, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.data_fast_recovery"/>
+
+    <!-- PengHao@NETWORK.DATA.110873, 2020/06/28, Add for oppo background data limit, OPLUS_FEATURE_DATA_LIMIT. -->
+    <oplus-feature name="oplus.software.radio.data_limit" />
+    <!-- Wangpeng@NETWORK.DATA.496865, 2020/10/21, add for for bug 496865 -->
+    <oplus-feature name="oplus.software.radio.data_eval" />
+
+    <!-- ZhuNian@NETWORK.DATA, 2020/09/11, bugid:276081 -->
+    <oplus-feature name="oplus.software.radio.game_err"/>
+
+    <!-- Asiga@NETWORK.POWER.26376, 2020/04/27, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.nwpower_static_netcontroller_enabled" />
+    <oplus-feature name="oplus.software.radio.nwpower_static_netcontroller_screen_on_enabled" />
+
+    <!-- LinJinBin@NETWORK.DATA.301424, 2020/10/14, modify for game paging optimization -->
+    <oplus-feature name="oplus.software.radio.game_paging"/>
+</oplus-config>

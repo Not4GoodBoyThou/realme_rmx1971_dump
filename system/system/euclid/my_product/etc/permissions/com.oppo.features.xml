@@ -1,0 +1,16 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<!-- COLOR_EDIT.  add oppo.screen.hovering.support ;remove oppo.narrow.frame -->
+<permissions>
+    <feature name="oppo.hw.manufacturer.qualcomm" />
+    <feature name="oppo.qualcomm.gemini.support" />
+    <!-- Junhao.Liang@ANDROID.BIOMETRICS.1070880, 2018/06/19, Add for closed eye unlock -->
+    <feature name="android.hardware.biometrics.face" />
+    <feature name="oppo.face.closeeye.detect" />
+    <feature name="oppo.black.gesture.wake.up.arouse.support" />
+    <!-- Yuan.Li@ANDROID.COMMONSOFT.1520433, 2021/05/14, Add for clear All Data Button -->
+    <feature name="oppo.support.single.partition" />
+    <!-- Runsheng.Pei@Swdp.Android.Ams, 2017/05/15, add for control unnormal activity start frequecy.-->
+    <feature name="oppo.ams.act.freqcontrol" />
+    <!-- Runsheng.Pei@Swdp.Android.Ams.Broadcast.Optimize, 2016/02/01, add for oppo broadcast optimize: -->
+    <feature name="oppo.ams.broadcast.oppobt" />
+</permissions>
