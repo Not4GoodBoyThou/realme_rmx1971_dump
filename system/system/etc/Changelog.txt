@@ -1,0 +1,295 @@
+
+====== android ======
+
+2023-09-28
+   - pixel: Track gpu module repository [minaripenguin]
+
+2023-09-26
+   - September 2023 Security update 2 [Michael Bestas]
+   - Track our own frameworks/opt/colorpicker [LuK1337]
+   - Revert "lineage: Sync external/dwarves from AOSP" [Bruno Martins]
+   - Track our own fork for CVE-2023-4863 [Luca Stefani]
+   - Track our own fork(s) for 2023-09 ASB patching [Kevin F. Haggerty]
+
+====== art ======
+
+2023-10-03
+   - Optimize String's length/isEmpty for constant strings [Santiago Aboy Solanes]
+   - Check that the header's section's size are consistent [Santiago Aboy Solanes]
+   - Make sure we don't go past the end in CheckIntraDebugInfoItem [Santiago Aboy Solanes]
+   - Separate hiddenapi_class_data_item checks in intra and inter [Santiago Aboy Solanes]
+   - Make CheckIntraCodeItem check the CodeItem with its correct size [Santiago Aboy Solanes]
+   - Verifier fix for string data offsets being out of bounds [Santiago Aboy Solanes]
+   - Fix checks in `DexFile::InitializeSectionsFromMapList()`. [Vladimir Marko]
+   - Avoid extra GetBestInfo call [Santiago Aboy Solanes]
+   - Avoid nullptr deref in profman [Santiago Aboy Solanes]
+   - An instruction cannot be found before itself [Santiago Aboy Solanes]
+   - Improve code sinking's sorting [Santiago Aboy Solanes]
+   - Optimize Select instructions regarding equality [Santiago Aboy Solanes]
+   - ART: Add two extra DCE passes [Chris Jones]
+   - Correctly delete all uses when building up the domination graph [Santiago Aboy Solanes]
+   - Remove instructions from dead blocks when building the dominator tree [Santiago Aboy Solanes]
+   - ART: Rename 'final' DCE pass to 'after_bce' [Hari Limaye]
+   - Reland "Propagating values from if clauses to its successors" [Santiago Aboy Solanes]
+   - Update the successor's Phis in RemoveDeadBlocks [Santiago Aboy Solanes]
+   - Mark graphs as always throwing alongside methods [Santiago Aboy Solanes]
+   - Improve DCE's SimplifyAlwaysThrows regarding Invoke location [Santiago Aboy Solanes]
+   - ART: Remove duplicated access modifier in OptimizingCompiler [Hari Limaye]
+   - Optimize Sub/Sub and Sub/Add operations [Santiago Aboy Solanes]
+
+====== build/make ======
+
+2023-09-26
+   - Bump build ID to TQ3A.230901.001.B1 [minaripenguin]
+
+====== device/qcom/sepolicy-legacy-um ======
+
+2023-09-28
+   - sepolicy: Label QTI Thermal HAL 2.0 [Bharath]
+
+====== device/qcom/sepolicy_vndr-legacy-um ======
+
+2023-10-02
+   - atoll: Label discard_max_bytes sysfs [Alexander Winkowski]
+   - sepolicy_vndr: Fix wakeup labels for (msmnile|msmsteppe|atoll) [Pulkit077]
+   - sepolicy_vndr: Allow NFC HAL to access vendor data folder [Gaurav Singhal]
+   - sepolicy_vndr: Allow qti_init_shell to set watermark boost factor [Alexander Winkowski]
+   - sepolicy_vndr: Allow to run e2fsck over dsp partition [Alexander Winkowski]
+
+====== external/chromium-webview/patches ======
+
+2023-09-30
+   - Update Chromium Webview to 117.0.5938.140 [Kevin F. Haggerty]
+
+====== external/chromium-webview/prebuilt/arm ======
+
+2023-09-30
+   - Update Chromium Webview arm prebuilt to 117.0.5938.140 [Kevin F. Haggerty]
+
+====== external/chromium-webview/prebuilt/arm64 ======
+
+2023-09-30
+   - Update Chromium Webview arm64 prebuilt to 117.0.5938.140 [Kevin F. Haggerty]
+
+====== external/chromium-webview/prebuilt/x86 ======
+
+2023-09-30
+   - Update Chromium Webview x86 prebuilt to 117.0.5938.140 [Kevin F. Haggerty]
+
+====== external/chromium-webview/prebuilt/x86_64 ======
+
+2023-09-30
+   - Update Chromium Webview x86_64 prebuilt to 117.0.5938.140 [Kevin F. Haggerty]
+
+====== frameworks/av ======
+
+2023-10-02
+   - AudioPolicyManager: Fix memory leak [Andy Hung]
+
+====== frameworks/base ======
+
+2023-10-05
+   - Rework "SystemUI: Turn less boring headsup whitelist into an overlay" [Pranav Vashi]
+   - SystemUI: Fix Reticker not appearing for some apps [Pranav Vashi]
+
+2023-10-04
+   - fixup! KeyguardIndication: Fix charging indication updates [minaripenguin]
+   - services: Fix exception when retrieving target SDK version [minaripenguin]
+   - services: permissions: Prevent apps from crashing when removing new permissions [minaripenguin]
+
+2023-10-02
+   - SystemUI: Fix squished keyguard bottom indication text at boot [minaripenguin]
+   - PIH: Spoof as Pixel Tablet to AIAI CpuUtils [minaripenguin]
+   - Mark SMS premium code 8080 as free in Poland [Jarosław Jedynak]
+
+2023-09-29
+   - Put bare minimum metadata in screenshots [Chirayu Desai]
+   - fixup! Hide hidden apps from all apps except system [Wang Han]
+   - SystemUI: Turn less boring headsup whitelist into an overlay [minaripenguin]
+   - SystemUI: Turn revamped wallpaper UI flag into an overlay [minaripenguin]
+   - Reland 'SystemUI: Enable new wallpaper picker UI' [aswin7469]
+
+2023-09-27
+   - Fix NPE of NativeTombstoneManager.TombstoneWatcher [Ghouse Hajimad]
+   - Avoid repeated loading of mutable runtime overlays in the form of sharedLib [zhangshuai10]
+
+2023-09-26
+   - SystemUI: Less boring headsup enhancements and fixes [minaripenguin]
+   - GameManagerService: Set device_config property on behalf of GameSpace [Dhina17]
+   - PhoneWindowManager: Pass correct invocation type for assistant launch on home long press [Dhina17]
+   - SystemUI: Fix exception when retrieving signal strength drawable [minaripenguin]
+   - Ambient Display: Simplify always on charging enabled check [minaripenguin]
+   - services: Launch pulse during plug-in if aod is enabled [minaripenguin]
+   - KeyguardIndication: Improve charging current detection [minaripenguin]
+   - KeyguardIndication: Fix charging indication updates [minaripenguin]
+   - PIH: Spoof Pixel tablet to ASI related services [minaripenguin]
+
+====== frameworks/native ======
+
+2023-10-04
+   - libbinder_rs: Handle empty args list for dump transactions [Stephen Crane]
+   - fixup! inputflinger: add absolute mouse input support [nift4]
+   - Force mouse event as touch [2/2] [nift4]
+   - fixup! inputflinger: add absolute mouse input support [nift4]
+
+====== hardware/lineage/compat ======
+
+2023-09-25
+   - compat: Add GNSS interface type shim [R0rt1z2]
+   - compat: Add libsensor -> libsensorndkbridge wrapper [Sebastiano Barezzi]
+   - compat: libc: Convert to Android.bp [me-cafebabe]
+   - compat: libc: Add pthread_mutex_destroy hack for camera [Nich]
+   - compat: libc: Trim down pthread_cond_timedwait hack [Nich]
+   - compat: libc: compile shim with GCC again.. [Nich]
+   - compat: libc: Specific naming of libc shim library [Nich]
+   - compat: libc: Bring libc hax inline with the latest sources [Nich]
+   - compat: libc: Transition to OSS libc shim [Arne Coucheron]
+
+====== hardware/qcom-caf/sm8450/audio/agm ======
+
+2023-09-27
+   - Merge tag 'LA.VENDOR.1.0.r1-23000-WAIPIO.QSSI13.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-23000-WAIPIO.QSSI13.0 [Michael Bestas]
+
+====== hardware/qcom-caf/sm8450/audio/pal ======
+
+2023-09-27
+   - Merge tag 'LA.VENDOR.1.0.r1-23000-WAIPIO.QSSI13.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-23000-WAIPIO.QSSI13.0 [Michael Bestas]
+
+====== hardware/qcom-caf/thermal ======
+
+2023-10-02
+   - Merge tag 'LA.VENDOR.1.0.r1-23000-WAIPIO.QSSI13.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-23000-WAIPIO.QSSI13.0 [Michael Bestas]
+
+2023-09-29
+   - thermal-hal: Add HAL v2 support for sdm632 [Ankit Siddhapura]
+
+====== hardware/qcom-caf/wlan ======
+
+2023-09-27
+   - Merge tag 'LA.VENDOR.1.0.r1-23000-WAIPIO.QSSI13.0' into staging/lineage-20.0_merge-LA.VENDOR.1.0.r1-23000-WAIPIO.QSSI13.0 [Michael Bestas]
+
+====== kernel/google/gs201/private/google-modules/gpu ======
+
+2023-09-28
+   - mali_kbase: Rework CSF scheduler to fix GPU stalls [Sultan Alsawaf]
+   - mali_kbase: Disable CONFIG_MALI_GATOR_SUPPORT [Sultan Alsawaf]
+   - mali_kbase: Allow worker kthread to run on any CPU [Sultan Alsawaf]
+   - Revert "mali_kbase: add log around hang location" [Sultan Alsawaf]
+   - Revert "mali_kbase: disable debug msg that spammed JM GPU." [Sultan Alsawaf]
+   - mali_pixel: Disable CONFIG_MALI_PIXEL_STATS [Sultan Alsawaf]
+   - mali_kbase: Improve DVFS utilization accuracy [Sultan Alsawaf]
+   - mali_kbase: Tune quickstep governor hysteresis to resist downclocking [Sultan Alsawaf]
+   - mali_kbase: Remove Pixel SSCD stats collection [Sultan Alsawaf]
+   - mali_pixel: Disable CONFIG_MALI_PIXEL_STATS [Sultan Alsawaf]
+   - mali_kbase: platform: dvfs: Fix pid struct and task_struct reference … [Sultan Alsawaf]
+
+====== lineage/mirror ======
+
+2023-10-05
+   - aosp-minimal: Android 14 [Chirayu Desai]
+
+2023-09-27
+   - Updated aosp-minimal to 27-Sep-2023 12:02 UTC [Tim Schumacher]
+
+====== lineage/scripts ======
+
+2023-09-29
+   - build-webview: Update default webview to 117.0.5938.140 [Kevin F. Haggerty]
+
+====== lineage/wiki ======
+
+2023-10-04
+   - wiki: Add bug report link to device info [LuK1337]
+
+2023-10-02
+   - wiki: Remove `uses_twrp` from adding device guide [LuK1337]
+   - wiki: Require all devices to specify recovery partition name [LuK1337]
+
+2023-10-01
+   - wiki: Update how-to for Android Studio [Albert Tang]
+   - wiki: Add com.android.networkstack.tethering to APEX list [Luofan Chen]
+   - wiki: Use correct recovery partition name in format on upgrade template [LuK1337]
+
+====== packages/apps/Aperture ======
+
+2023-10-04
+   - Aperture: Drop android.nonTransitiveRClass [Sebastiano Barezzi]
+   - Aperture: Enable setup-java@v3 cache [LuK1337]
+   - Aperture: Update AGP to 8.1.2 [Sebastiano Barezzi]
+   - Aperture: Update Gradle to 8.3 [Sebastiano Barezzi]
+   - Aperture: Move data classes and enum classes to models package [Sebastiano Barezzi]
+   - Aperture: Remove unused import [Sebastiano Barezzi]
+   - Aperture: CapturePreviewLayout: Remove callback defined in XML layout [Sebastiano Barezzi]
+   - Aperture: Hook up video mirror mode [Sebastiano Barezzi]
+
+2023-10-03
+   - Aperture: Hook up video dynamic range [Sebastiano Barezzi]
+   - Aperture: Hook up gerrit-vote action [LuK1337]
+
+2023-10-01
+   - Automatic translation import [LineageOS Infra]
+
+====== packages/apps/DocumentsUI ======
+
+2023-10-01
+   - Automatic translation import [LineageOS Infra]
+
+====== packages/apps/GameSpace ======
+
+2023-09-26
+   - GameSpace: Don't set device_config property directly [Dhina17]
+
+====== packages/apps/Launcher3 ======
+
+2023-10-02
+   - Launcher3: Quickspace: Improve loading routines [Pranav Vashi]
+   - Launcher3: Quickspace: Clean up and fix NPE [Pranav Vashi]
+
+====== packages/apps/Settings ======
+
+2023-09-26
+   - settings: Handle fastcharge service gracefully if not supported [minaripenguin]
+   - [DNM] Fix security patch version [minaripenguin]
+
+====== packages/inputmethods/LatinIME ======
+
+2023-10-01
+   - Automatic translation import [LineageOS Infra]
+   - LatinIME: Update Material You spacebar language color [Georg Veichtlbauer]
+
+====== vendor/crowdin ======
+
+2023-10-01
+   - Automatic translation import [LineageOS Infra]
+
+====== vendor/lineage ======
+
+2023-10-02
+   - charger: Improve lineage charger [Chippa-a]
+   - config: Exclude window_extensions addon on mini_tablet [Bruno Martins]
+
+2023-09-27
+   - qcom: Add parrot platform [HeroBuxx]
+   - apn: Add Mint Mobile [Arvind Mukund]
+   - vars: RIP sunfish [Michael Bestas]
+   - repopick: Fix regex related SyntaxWarning on Python 3.12 [LuK1337]
+   - kernel: Use pahole from Google prebuilts [Bruno Martins]
+   - kernel: Allow to limit the used .dtb files for the final DTB image [SGCMarkus]
+   - kernel: Include DTBOs from OEM/ODM folder in base DTB [Bruno Martins]
+   - kernel: Handle GKI modules [Bruno Martins]
+   - overlay: Move config_hspa_data_distinguishable to proper location [Tommaso Fonda]
+
+====== vendor/pixel-framework ======
+
+2023-10-04
+   - SystemUIGoogle: Always update keyguard indicaton when charging [minaripenguin]
+   - SystemUIGoogle: Improve battery info broadcasts [minaripenguin]
+   - SystemUIGoogle: Rewrite EnhancedEstimatesGoogleImpl to kotlin [minaripenguin]
+
+2023-10-03
+   - SettingsGoogle: Move spatial audio below media player preference [minaripenguin]
+
+====== vendor/qcom/opensource/data-ipa-cfg-mgr ======
+
+2023-09-29
+   - ipacm: Address ipacm start failure [dianlujitao]
