@@ -1,0 +1,12 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=4096
+kernel_size=16211511
+ramdisk_size=0
+base_addr=0x00000000
+kernel_offset=0x00008000
+ramdisk_offset=0x00000000
+tags_offset=0x00000100
+dtbo_offset=0x00000000
+cmd_line='androidboot.configfs=true androidboot.console=ttyMSM0 androidboot.hardware=qcom androidboot.usbcontroller=a600000.dwc3 console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0xA90000 ehci-hcd.park=3 firmware_class.path=/vendor/firmware_mnt/image kpti=off loop.max_part=7 lpm_levels.sleep_disabled=1 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=1 androidboot.init_fatal_reboot_target=recovery buildvariant=user'
+board=""

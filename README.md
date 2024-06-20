@@ -1,0 +1,20 @@
+## sdm710-user 9 PKQ1.190101.001 eng.root.20191220.123812 release-keys
+- Manufacturer: realme
+- Platform: sdm710
+- Codename: RMX1971
+- Brand: Realme
+- Flavor: lineage_RMX1971-user
+- Release Version: 13
+- Kernel Version: 4.9.186
+- Id: TQ3A.230901.001.B1
+- Incremental: 1695870237
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: false
+- Treble Device: true
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: google/cheetah/cheetah:13/TQ3A.230605.012/10204971:user/release-keys
+- OTA version: 
+- Branch: sdm710-user-9-PKQ1.190101.001-eng.root.20191220.123812-release-keys
+- Repo: realme_rmx1971_dump
