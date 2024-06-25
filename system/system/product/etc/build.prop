@@ -1,0 +1,30 @@
+####################################
+# from device/realme/RMX1971/product.prop
+####################################
+# IMS
+ro.telephony.block_binder_thread_on_incoming_calls=false
+# LMKD
+ro.lmk.low=1001
+ro.lmk.medium=800
+ro.lmk.critical=0
+ro.lmk.critical_upgrade=false
+ro.lmk.upgrade_pressure=100
+ro.lmk.downgrade_pressure=100
+ro.lmk.log_stats=true
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.product.vndk.version=33
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+persist.sys.disable_rescue=true
+ro.config.notification_sound=Argon.ogg
+ro.config.alarm_alert=Hassium.ogg
+ro.support_one_handed_mode=true
+ro.config.ringtone=Orion.ogg
+ro.build.fingerprint=realme/RMX1971/RMX1971:11/RKQ1.201217.002/1623376276806:user/release-keys
+# end of file

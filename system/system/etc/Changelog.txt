@@ -1,0 +1,37 @@
+====================
+    06-23-2024     
+====================
+
+* frameworks/av
+4201c38  camera: Expose aux cameras in third party apps  [Pierre-Hugues Husson]
+
+
+* frameworks/base
+5674d9b  HACK: telephony: Conditionally force enable LTE_CA  [DarkJoker360]
+36548a0  Revert "SystemUI: Turn on UMO turbulence noise and surface ripple by default"  [kaderbava]
+
+
+* hardware/qcom-caf/thermal
+bc5514f  thermal-hal: Add thermal HAL 2.0 support for sdm710 family  [Dakkshesh]
+
+
+* packages/apps/Settings
+3104fd6  Settings: Add a toggle to force LTE_CA  [DarkJoker360]
+
+
+====================
+    06-22-2024     
+====================
+
+====================
+    06-21-2024     
+====================
+
+====================
+    06-20-2024     
+====================
+
+====================
+    06-19-2024     
+====================
+
