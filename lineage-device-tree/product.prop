@@ -1,0 +1,14 @@
+persist.sys.disable_rescue=true
+ro.config.alarm_alert=Hassium.ogg
+ro.config.notification_sound=Argon.ogg
+ro.config.ringtone=Orion.ogg
+ro.lmk.critical=0
+ro.lmk.critical_upgrade=false
+ro.lmk.downgrade_pressure=100
+ro.lmk.log_stats=true
+ro.lmk.low=1001
+ro.lmk.medium=800
+ro.lmk.upgrade_pressure=100
+ro.support_one_handed_mode=true
+ro.telephony.block_binder_thread_on_incoming_calls=false
+sys.fflag.override.settings_seamless_transfer=true

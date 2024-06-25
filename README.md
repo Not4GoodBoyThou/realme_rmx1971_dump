@@ -1,0 +1,20 @@
+## RMX1971-user 11 RKQ1.201217.002 1623376276806 release-keys
+- Manufacturer: realme
+- Platform: sdm710
+- Codename: RMX1971
+- Brand: realme
+- Flavor: derp_RMX1971-user
+- Release Version: 13
+- Kernel Version: 
+- Id: TQ3A.230901.001
+- Incremental: 1719153702
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: false
+- Treble Device: true
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: realme/RMX1971/RMX1971:11/RKQ1.201217.002/1623376276806:user/release-keys
+- OTA version: 
+- Branch: RMX1971-user-11-RKQ1.201217.002-1623376276806-release-keys
+- Repo: realme_rmx1971_dump
